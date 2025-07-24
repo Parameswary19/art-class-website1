@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Art Classes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f4ef;
+      color: #333;
+    }
+    header {
+      background-color: #e6c9a8;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #d4a373;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+    }
+    nav a:hover {
+      background-color: #b5835a;
+    }
+    .section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 200px;
+      height: auto;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    footer {
+      background-color: #e6c9a8;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    form input, form textarea {
+      display: block;
+      margin: 10px 0;
+      padding: 8px;
+      width: 100%;
+      max-width: 500px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Art Classes</h1>
+    <p>Sharing creativity and student artwork</p>
+  </header>
+
+  <nav>
+    <a href="#gallery">Gallery</a>
+    <a href="#classes">Classes</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="section" id="gallery">
+    <h2>Student Gallery</h2>
+    <div class="gallery">
+      <img src="art1.jpg" alt="Student Art 1">
+      <img src="art2.jpg" alt="Student Art 2">
+      <img src="art3.jpg" alt="Student Art 3">
+    </div>
+  </div>
+
+  <div class="section" id="classes">
+    <h2>Class Details</h2>
+    <p><strong>Kids Beginner Art</strong> - Saturdays 10AM–11:30AM</p>
+    <p><strong>Teen Sketch & Paint</strong> - Sundays 2PM–3:30PM</p>
+    <p><strong>Adult Watercolor</strong> - Wednesdays 6PM–7:30PM</p>
+    <p>All materials provided. First class free!</p>
+  </div>
+
+  <div class="section" id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm [Your Name], an artist and teacher with a passion for helping students express themselves through art. With over [X] years of teaching, I love guiding learners of all ages in a creative, welcoming environment.</p>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <input type="submit" value="Send Message" />
+    </form>
+    <p>Or email me directly at: <strong>yourname@example.com</strong></p>
+  </div>
+
+  <footer>
+    &copy; 2025 My Art Classes. All rights reserved.
+  </footer>
+</body>
+</html>
